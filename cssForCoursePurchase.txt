@@ -1,0 +1,51 @@
+h1{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+#courses{
+    list-style: none;
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+#courses p{
+    display: block;
+    padding: 20px 20px;
+    background-color: #C5EFF7;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#courses p b{
+    position: absolute;
+    right: 30px;
+    width: 100px;
+    color: #000;
+    text-align: right;
+}
+
+#courses p:hover{
+    background-color:#52B3D9;
+    color:#fff;
+}
+
+#courses p.active{
+    color:#fff;
+    background-color:#446CB3;
+}
+
+#courses p.active b{
+    color: #fff;
+}
+
+
+#total{
+    background: #3FC380 !important;
+    cursor: default !important;
+    padding-top: 10px !important;
+}

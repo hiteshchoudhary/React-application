@@ -1,0 +1,28 @@
+'.source.js':
+  'Console log':
+    'prefix': 'log'
+    'body': 'console.log($1)'
+
+  'Constructor':
+    'prefix': 'rcon'
+    'body': """
+        constructor(props){
+          super(props);
+
+          this.state = {$1};
+        }
+      """
+
+  'Component':
+    'prefix': 'rcom'
+    'body': """
+        class $1 extends Component {
+          render(){
+            return(
+              <div>
+                $2
+              </div>
+            );
+          }
+        }
+      """

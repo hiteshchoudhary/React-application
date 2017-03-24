@@ -1,0 +1,93 @@
+body {
+  background: #27ae60;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#card {
+  width: 30%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+.search-box input[type='search'] {
+  width: 100%;
+  font-size: 20px;
+  border: 0;
+  padding: .75rem .9375rem .9375rem;
+  background: #e6ebed;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.notfound {
+  background: #fff;
+  padding: 1.875rem;
+  text-align: center;
+}
+.notfound h2 {
+  font-size: 2rem;
+  color: #27ae60;
+  margin-bottom: .625rem;
+}
+.notfound p {
+  font-size: 1rem;
+  color: #000;
+}
+
+
+.github-profile-info {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.github-profile-info img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.github-profile-info h2 a {
+  font-size: 30px;
+  color: #2368bd;
+}
+.github-profile-info h3 {
+  font-size: 1.1885rem;
+  color: #bdcbce;
+}
+.github-profile-state {
+  background: #34495e;
+  text-align: center;
+  padding: 1.875rem .9375rem;
+}
+.github-profile-state ul {
+  direction: ltr;
+}
+.github-profile-state li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.github-profile-state a {
+  color: #fff;
+}
+.github-profile-state i {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+}
+.github-profile-state span {
+  font-size: 20px;
+  letter-spacing: .06rem;
+  color: #27ae60;
+}

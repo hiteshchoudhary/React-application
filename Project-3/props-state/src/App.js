@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PropTypes from 'prop-types';
 
 class App extends Component {
   render() {
@@ -23,9 +24,9 @@ class App extends Component {
 }
 
 App.propTypes = {
-  propObject: React.PropTypes.object,
-  propString: React.PropTypes.string,
-  propNumber: React.PropTypes.number
+  propObject: PropTypes.object,
+  propString: PropTypes.string,
+  propNumber: PropTypes.number
 }
 
 App.defaultProps = {
